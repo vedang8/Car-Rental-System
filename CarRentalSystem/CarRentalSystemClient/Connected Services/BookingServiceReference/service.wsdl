@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="BookingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/CarRentalSystem" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBookingService_GetAllBooking_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBooking" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_GetAllBooking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_AddBooking_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddBooking" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_AddBooking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_RemoveBooking_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveBooking" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_RemoveBooking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_GetBookingByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookingByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_GetBookingByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookingByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_GetBookingByCarId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookingByCarId" />
+  </wsdl:message>
+  <wsdl:message name="IBookingService_GetBookingByCarId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookingByCarIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBookingService">
+    <wsdl:operation name="GetAllBooking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBookingService/GetAllBooking" message="tns:IBookingService_GetAllBooking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBookingService/GetAllBookingResponse" message="tns:IBookingService_GetAllBooking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBooking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBookingService/AddBooking" message="tns:IBookingService_AddBooking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBookingService/AddBookingResponse" message="tns:IBookingService_AddBooking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveBooking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBookingService/RemoveBooking" message="tns:IBookingService_RemoveBooking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBookingService/RemoveBookingResponse" message="tns:IBookingService_RemoveBooking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookingByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBookingService/GetBookingByUserId" message="tns:IBookingService_GetBookingByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBookingService/GetBookingByUserIdResponse" message="tns:IBookingService_GetBookingByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookingByCarId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBookingService/GetBookingByCarId" message="tns:IBookingService_GetBookingByCarId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBookingService/GetBookingByCarIdResponse" message="tns:IBookingService_GetBookingByCarId_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBookingService" type="tns:IBookingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllBooking">
+      <soap:operation soapAction="http://tempuri.org/IBookingService/GetAllBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBooking">
+      <soap:operation soapAction="http://tempuri.org/IBookingService/AddBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveBooking">
+      <soap:operation soapAction="http://tempuri.org/IBookingService/RemoveBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookingByUserId">
+      <soap:operation soapAction="http://tempuri.org/IBookingService/GetBookingByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookingByCarId">
+      <soap:operation soapAction="http://tempuri.org/IBookingService/GetBookingByCarId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BookingService">
+    <wsdl:port name="BasicHttpBinding_IBookingService" binding="tns:BasicHttpBinding_IBookingService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/CarRentalSystem/BookingService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

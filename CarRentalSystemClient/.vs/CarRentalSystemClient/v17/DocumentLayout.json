@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|c:\\users\\vedangjoshi\\source\\repos\\carrentalsystemclient\\carrentalsystemclient\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\viewcar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\viewcar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\viewcar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\viewcar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\addcar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\addcar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\addcar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\addcar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\carrentalsystemclient\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5389B42-B477-4749-97A4-969F20B0FF59}|CarRentalSystemClient\\CarRentalSystemClient.csproj|solutionrelative:carrentalsystemclient\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Register.aspx",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\Register.aspx",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Register.aspx",
+              "RelativeToolTip": "CarRentalSystemClient\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-07T10:18:00.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewCar.aspx",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\ViewCar.aspx",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\ViewCar.aspx",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\ViewCar.aspx",
+              "RelativeToolTip": "CarRentalSystemClient\\ViewCar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-05-06T14:32:10.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewCar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\ViewCar.aspx.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\ViewCar.aspx.cs",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\ViewCar.aspx.cs",
+              "RelativeToolTip": "CarRentalSystemClient\\ViewCar.aspx.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAACgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-06T14:32:07.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCar.aspx",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\AddCar.aspx",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\AddCar.aspx",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\AddCar.aspx",
+              "RelativeToolTip": "CarRentalSystemClient\\AddCar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-05-06T13:35:23.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\AddCar.aspx.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\AddCar.aspx.cs",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\AddCar.aspx.cs",
+              "RelativeToolTip": "CarRentalSystemClient\\AddCar.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-06T13:33:16.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "History.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\History.aspx.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\History.aspx.cs",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\History.aspx.cs",
+              "RelativeToolTip": "CarRentalSystemClient\\History.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-04-30T11:50:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Login.aspx.cs",
+              "RelativeToolTip": "CarRentalSystemClient\\Login.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-04-30T11:49:22.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Login.aspx",
+              "RelativeDocumentMoniker": "CarRentalSystemClient\\Login.aspx",
+              "ToolTip": "C:\\Users\\VEDANGJOSHI\\source\\repos\\CarRentalSystemClient\\CarRentalSystemClient\\Login.aspx",
+              "RelativeToolTip": "CarRentalSystemClient\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-04-30T11:49:15.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

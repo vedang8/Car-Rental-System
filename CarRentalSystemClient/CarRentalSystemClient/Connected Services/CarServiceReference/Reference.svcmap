@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="41cd34bb-03fa-49ab-b4eb-f9bee11c7c3b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8001/CarTcpBinding/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="db636a16-48d7-4ca9-9ff2-777fdb010338" SourceId="1" SourceUrl="net.tcp://localhost:8001/CarTcpBinding/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fe0180c6-ca54-44af-b779-ffb993bbe7c2" SourceId="1" SourceUrl="net.tcp://localhost:8001/CarTcpBinding/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d06b793e-a772-4ae2-b38b-0b6576dfcd66" SourceId="1" SourceUrl="net.tcp://localhost:8001/CarTcpBinding/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="c7a16f01-1da1-460a-9c1f-c38a5a6f28b2" SourceId="1" SourceUrl="net.tcp://localhost:8001/CarTcpBinding/mex" />
+    <MetadataFile FileName="CarRentalSystem.xsd" MetadataType="Schema" ID="fb612395-21cf-46b8-994a-e072efb53ec0" SourceId="1" SourceUrl="net.tcp://localhost:8001/CarTcpBinding/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

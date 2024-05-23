@@ -1,0 +1,59 @@
+﻿/* Style the navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    /* Style the links inside the navigation bar */
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+        /* Change color of links on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add an active class to the current link (highlight it) */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+}
+
+/* Style the left and right halves */
+.left-half, .right-half {
+    flex: 1;
+    padding: 0 20px;
+}
+
+    /* Add/Edit Car section styles */
+    .left-half h2 {
+        margin-top: 0;
+    }
+
+    .left-half div {
+        margin-bottom: 10px;
+    }
+
+    .left-half label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    /* Cars List section styles */
+    .right-half h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
