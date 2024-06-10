@@ -1,4 +1,4 @@
-# 🚗 Online Car Rental System
+# 🚗 Drive Ease
 
 ## 📚 Table of Contents
 - [Introduction](#introduction)
